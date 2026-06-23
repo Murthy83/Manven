@@ -2,139 +2,45 @@ import "./App.css";
 
 function App() {
     return (
-        <> <header className="navbar"> <div className="logo">MANVEN TECHNOLOGIES</div>
+        <>
+            <header className="navbar">
+                <div className="logo-container">
+                    <img src="/logo.png" alt="Manven Technologies" className="logo-image" />
+                    <span className="logo-text">MANVEN TECHNOLOGIES</span>
+                </div>
 
-            ```
-            <nav>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#technologies">Technology</a>
-                <a href="#industries">Industries</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#technology">Technology</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </header>
 
             <section className="hero">
-                <div className="hero-content">
-                    <h1>Accelerating Digital Transformation</h1>
+                <img src="/logo.png" alt="Manven Logo" className="hero-logo" />
 
-                    <h2>
-                        Cloud Engineering • DevOps • Artificial Intelligence • Software
-                        Development
-                    </h2>
+                <h1>MANVEN TECHNOLOGIES PRIVATE LIMITED</h1>
 
-                    <p>
-                        Helping organizations modernize infrastructure, automate
-                        operations, accelerate software delivery and unlock innovation
-                        through Cloud and AI.
-                    </p>
-
-                    <div className="hero-buttons">
-                        <a href="#contact" className="btn-primary">
-                            Contact Us
-                        </a>
-
-                        <a href="#services" className="btn-secondary">
-                            Explore Services
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="about" className="section">
-                <h2>About Us</h2>
+                <h2>
+                    Cloud Engineering • DevOps • Artificial Intelligence • Software
+                    Development
+                </h2>
 
                 <p>
-                    Manven Technologies Private Limited is a technology consulting and
-                    software engineering company headquartered in Hyderabad, Telangana,
-                    India.
+                    Helping businesses modernize infrastructure, automate operations,
+                    accelerate software delivery and unlock innovation through Cloud,
+                    DevOps and AI technologies.
                 </p>
 
-                <p>
-                    We specialize in Cloud Engineering, DevOps, Platform Engineering,
-                    Artificial Intelligence, Enterprise Software Development and Digital
-                    Transformation initiatives.
-                </p>
+                <div className="hero-buttons">
+                    <a href="#contact" className="btn-primary">
+                        Contact Us
+                    </a>
 
-                <p>
-                    Our leadership team brings more than 13 years of industry experience
-                    across banking, airlines, cloud platforms, enterprise applications,
-                    infrastructure automation and modern software delivery practices.
-                </p>
-
-                <p>
-                    We help organizations modernize infrastructure, improve reliability,
-                    accelerate software delivery and leverage emerging technologies to
-                    achieve business growth.
-                </p>
-            </section>
-
-            <section id="services" className="section">
-                <h2>Our Services</h2>
-
-                <div className="cards">
-                    <div className="card">
-                        <h3>Cloud Engineering</h3>
-                        <ul>
-                            <li>AWS Cloud Solutions</li>
-                            <li>Microsoft Azure</li>
-                            <li>Google Cloud Platform</li>
-                            <li>Cloud Migration</li>
-                            <li>Cloud Security</li>
-                        </ul>
-                    </div>
-
-                    <div className="card">
-                        <h3>DevOps & Platform Engineering</h3>
-                        <ul>
-                            <li>Kubernetes</li>
-                            <li>Terraform</li>
-                            <li>CI/CD Pipelines</li>
-                            <li>Infrastructure as Code</li>
-                            <li>Observability</li>
-                        </ul>
-                    </div>
-
-                    <div className="card">
-                        <h3>Artificial Intelligence</h3>
-                        <ul>
-                            <li>AI Solutions</li>
-                            <li>Business Automation</li>
-                            <li>AI Chatbots</li>
-                            <li>Generative AI</li>
-                            <li>Document Intelligence</li>
-                        </ul>
-                    </div>
-
-                    <div className="card">
-                        <h3>Software Development</h3>
-                        <ul>
-                            <li>Web Applications</li>
-                            <li>Enterprise Applications</li>
-                            <li>Microservices</li>
-                            <li>Mobile Applications</li>
-                            <li>API Development</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section id="technologies" className="section">
-                <h2>Technology Stack</h2>
-
-                <div className="tech-grid">
-                    <span>AWS</span>
-                    <span>Azure</span>
-                    <span>Google Cloud</span>
-                    <span>Kubernetes</span>
-                    <span>Terraform</span>
-                    <span>Docker</span>
-                    <span>OpenShift</span>
-                    <span>GitHub</span>
-                    <span>Jenkins</span>
-                    <span>Python</span>
-                    <span>Java</span>
-                    <span>React</span>
+                    <a href="#services" className="btn-secondary">
+                        Our Services
+                    </a>
                 </div>
             </section>
 
@@ -160,15 +66,70 @@ function App() {
                 </div>
             </section>
 
-            <section id="industries" className="section">
-                <h2>Industries We Serve</h2>
+            <section id="about" className="section">
+                <h2>About Us</h2>
+
+                <p>
+                    Manven Technologies Private Limited is a technology consulting and
+                    software engineering company headquartered in Hyderabad, Telangana,
+                    India.
+                </p>
+
+                <p>
+                    We specialize in Cloud Engineering, DevOps, Platform Engineering,
+                    Artificial Intelligence, Enterprise Software Development and Digital
+                    Transformation initiatives.
+                </p>
+
+                <p>
+                    Our leadership team brings more than 13 years of industry experience
+                    across banking, airlines, enterprise software, cloud platforms and
+                    infrastructure modernization.
+                </p>
+            </section>
+
+            <section id="services" className="section">
+                <h2>Our Services</h2>
 
                 <div className="cards">
-                    <div className="card">Banking & Financial Services</div>
-                    <div className="card">Airlines & Travel</div>
-                    <div className="card">Healthcare</div>
-                    <div className="card">Retail & E-Commerce</div>
-                    <div className="card">Technology Startups</div>
+                    <div className="card">
+                        <h3>Cloud Solutions</h3>
+                        <p>AWS, Azure, Google Cloud Platform</p>
+                    </div>
+
+                    <div className="card">
+                        <h3>DevOps Engineering</h3>
+                        <p>CI/CD, Kubernetes, Terraform, Automation</p>
+                    </div>
+
+                    <div className="card">
+                        <h3>Artificial Intelligence</h3>
+                        <p>AI Solutions, Automation, Generative AI</p>
+                    </div>
+
+                    <div className="card">
+                        <h3>Software Development</h3>
+                        <p>Web Applications, APIs and Enterprise Systems</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="technology" className="section">
+                <h2>Technology Stack</h2>
+
+                <div className="tech-grid">
+                    <span>AWS</span>
+                    <span>Azure</span>
+                    <span>GCP</span>
+                    <span>Kubernetes</span>
+                    <span>Terraform</span>
+                    <span>Docker</span>
+                    <span>OpenShift</span>
+                    <span>GitHub</span>
+                    <span>Jenkins</span>
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>React</span>
                 </div>
             </section>
 
@@ -177,25 +138,23 @@ function App() {
 
                 <div className="cards">
                     <div className="card">
-                        <h3>Cloud Expertise</h3>
-                        <p>Multi-cloud experience across AWS, Azure and Google Cloud.</p>
+                        <h3>Multi Cloud Expertise</h3>
+                        <p>AWS, Azure and Google Cloud experience.</p>
                     </div>
 
                     <div className="card">
                         <h3>DevOps First</h3>
-                        <p>CI/CD, Kubernetes, Terraform and Infrastructure as Code.</p>
+                        <p>Automation, IaC and modern deployment practices.</p>
                     </div>
 
                     <div className="card">
-                        <h3>AI Innovation</h3>
-                        <p>AI-powered solutions and automation for modern businesses.</p>
+                        <h3>AI Ready</h3>
+                        <p>Modern AI powered business solutions.</p>
                     </div>
 
                     <div className="card">
                         <h3>Enterprise Experience</h3>
-                        <p>
-                            Experience supporting banking, airline and enterprise platforms.
-                        </p>
+                        <p>Banking, Airlines and Enterprise Technology.</p>
                     </div>
                 </div>
             </section>
@@ -213,7 +172,7 @@ function App() {
                     </p>
 
                     <p>
-                        <strong>Registered Address:</strong>
+                        <strong>Address:</strong>
                         <br />
                         MANVEN TECHNOLOGIES PRIVATE LIMITED
                         <br />
@@ -229,12 +188,9 @@ function App() {
             </section>
 
             <footer>
-                <p>
-                    © 2026 MANVEN TECHNOLOGIES PRIVATE LIMITED. All Rights Reserved.
-                </p>
+                © 2026 MANVEN TECHNOLOGIES PRIVATE LIMITED. All Rights Reserved.
             </footer>
         </>
-
     );
 }
 
